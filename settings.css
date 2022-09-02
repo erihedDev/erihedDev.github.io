@@ -69,6 +69,48 @@ body {
     font-size: 60px;
 }
 
+.aboutMe {
+    height: 700px;
+    width: 100%;
+    background-color: #ff2e2e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutMe h1 {
+    padding: 80px 0;
+}
+
+.aboutMe .aboutMeRow {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutMe .aboutMeContent {
+    margin: 0 30px;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.aboutMe .aboutMeContent h2 {
+    padding: 20px;
+    font-size: 30px;
+}
+
+.aboutMe .aboutMeContent p {
+ padding: 0 20px;
+ font-size: 20px;
+}
+
 .footer {
     color: white;
     display: flex;
