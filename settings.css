@@ -66,22 +66,56 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 200px;
+    height: 700px;
     background-color: #ff2e2e;
 }
 
-.footer .footerLogo {
-    font-size: 30px;
+.footer h1 {
+    margin: 80px 0;
+}
+
+.footerCenter {
+    width: 1400px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .footer .footerContent {
-    margin: 15px 0;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.footer .footerContent a {
-    margin: 0 30px;
+.footer .footerContent i {
     color: white;
-    text-decoration: none;
+    font-size: 40px;
 }
+
+.footer .footerContent .iconBackground {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    background-color: #ff2e2e;
+    margin-top: 30px;
+}
+
+.footer .footerContent h1 {
+    color: #ff2e2e;
+    margin: 25px 0 10px 0;
+}
+
+.footer .footerContent p {
+    font-size: 20px;
+    color: black;
+    margin: 2px 0;
+}
+
+
 
