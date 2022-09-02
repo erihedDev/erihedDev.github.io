@@ -118,5 +118,9 @@ body {
     margin: 2px 0;
 }
 
+.footer .footerContent p a {
+    color: black;
+    text-decoration: none;
+}
 
 
