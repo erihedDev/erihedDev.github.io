@@ -111,6 +111,49 @@ body {
  font-size: 20px;
 }
 
+.langExperience {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.langExperience h1 {
+    margin: 80px 0;
+}
+
+.langExperience i {
+    font-size: 100px;
+    margin: 0 30px;
+}
+
+.langExperience .langIcons {
+    display: flex;
+}
+
+.langExperience .langInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.langExperience .langInfo i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: #ff2e2e;
+    color: white;
+}
+
+.langExperience .langInfo p{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
 .footer {
     color: white;
     display: flex;
