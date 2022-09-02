@@ -75,12 +75,13 @@ body {
 }
 
 .footerCenter {
-    width: 1400px;
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .footer .footerContent {
+    margin: 0 30px;
     width: 400px;
     height: 400px;
     background-color: white;
