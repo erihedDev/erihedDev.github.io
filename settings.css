@@ -1,3 +1,10 @@
+:root { 
+    --red: hsl(0, 95%, 67%);
+}
+/* --red: #ff2e2e 
+*/
+
+
 * {
     margin: 0;
     padding: 0;
@@ -26,7 +33,7 @@ body {
 .header {
     width: 100%;
     color: white;
-    background-color: #ff2e2e;
+    background-color: var(--red);
     height: 150px;
     display: flex;
     justify-content: center;
@@ -72,7 +79,7 @@ body {
 }
 
 .introduction .introLeft h1 {
-    color: #ff2e2e;
+    color: var(--red);
     font-size: 200px;
 }
 
@@ -83,7 +90,7 @@ body {
 .aboutMe {
     height: 700px;
     width: 100%;
-    background-color: #ff2e2e;
+    background-color: var(--red);
     color: white;
     display: flex;
     flex-direction: column;
@@ -160,7 +167,7 @@ body {
     height: 150px;
     width: 150px;
     border-radius: 20px;
-    background-color: #ff2e2e;
+    background-color: var(--red);
     color: white;
 }
 
@@ -175,7 +182,7 @@ body {
     flex-direction: column;
     align-items: center;
     height: 700px;
-    background-color: #ff2e2e;
+    background-color: var(--red);
 }
 
 .footer h1 {
@@ -211,12 +218,12 @@ body {
     height: 80px;
     width: 80px;
     border-radius: 100%;
-    background-color: #ff2e2e;
+    background-color: var(--red);
     margin-top: 30px;
 }
 
 .footer .footerContent h1 {
-    color: #ff2e2e;
+    color: var(--red);
     margin: 25px 0 10px 0;
 }
 
