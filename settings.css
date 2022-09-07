@@ -1,5 +1,5 @@
 :root { 
-    --red: hsl(0, 95%, 67%);
+    --red: hsl(226, 95%, 67%);
 }
 /* --red: #ff2e2e 
 */
@@ -12,6 +12,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+
 }
 
 .shadow {
@@ -102,14 +103,13 @@ body {
 }
 
 .aboutMe .aboutMeRow {
-    width: 100%;
+    width: 1400px;
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .aboutMe .aboutMeContent {
-    margin: 0 30px;
     width: 400px;
     height: 400px;
     background-color: white;
@@ -150,17 +150,10 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 80%;
+    width: 1400px;
 }
 
-.langExperience .langInfo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 50px;
-}
-
-.langExperience .langInfo i {
+.langExperience i {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -169,11 +162,7 @@ body {
     border-radius: 20px;
     background-color: var(--red);
     color: white;
-}
-
-.langExperience .langInfo p{
-    margin-top: 15px;
-    font-size: 20px;
+    margin-bottom: 50px;
 }
 
 .footer {
@@ -190,13 +179,12 @@ body {
 }
 
 .footerCenter {
-    width: 100%;
+    width: 1400px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .footer .footerContent {
-    margin: 0 30px;
     width: 400px;
     height: 400px;
     background-color: white;
