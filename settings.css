@@ -143,6 +143,7 @@ body {
     font-size: 25px;
     background-color: #101010;
     border: none;
+    border-radius: 5px;
 }
 
 .contact-info .contact-info-content .mail-form input:focus {
@@ -150,13 +151,38 @@ body {
 }
 
 .contact-info .contact-info-content .mail-form button {
+    width: 40%;
     margin: 5px;
     padding: 10px;
     height: 60px;
     font-size: 25px;
     color: rgb(240, 240, 240);
-    background-color: #00ff8c;
+    background-color: #101010;
     border: none;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+}
+
+.contact-info .contact-info-content .mail-form textarea {
+    height: 200px;
+    resize: none;
+    margin: 5px;
+    color: rgb(240, 240, 240);
+    padding: 10px;
+    font-size: 25px;
+    background-color: #101010;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-info .contact-info-content .mail-form textarea:focus {
+    outline: none;
+}
+
+.contact-info .contact-info-content .mail-form button:hover {
+    cursor: pointer;
+    background-color: #00ff8c;
 }
 
 .contact-info .contact-info-content .mail-form .form-top input{
