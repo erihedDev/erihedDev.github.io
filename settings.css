@@ -100,3 +100,65 @@ body {
     color:rgb(240, 240, 240);
     font-weight: 300;
 }
+
+.contact-info {
+    color: white;
+    height: 100vh;
+    width: calc(100vw - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-info h1 {
+    font-size: 80px;
+}
+
+.contact-info h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.contact-info .contact-info-content {
+    margin-left: 60px;
+}
+
+.contact-info .contact-info-content .mail-form {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+
+}
+
+.contact-info .contact-info-content .mail-form .form-top {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info .contact-info-content .mail-form input {
+    margin: 5px;
+    color: rgb(240, 240, 240);
+    padding: 10px;
+    height: 30px;
+    font-size: 25px;
+    background-color: #101010;
+    border: none;
+}
+
+.contact-info .contact-info-content .mail-form input:focus {
+    outline: none;
+}
+
+.contact-info .contact-info-content .mail-form button {
+    margin: 5px;
+    padding: 10px;
+    height: 60px;
+    font-size: 25px;
+    color: rgb(240, 240, 240);
+    background-color: #00ff8c;
+    border: none;
+}
+
+.contact-info .contact-info-content .mail-form .form-top input{
+    width: 100%;
+}
