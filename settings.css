@@ -36,8 +36,8 @@ body {
 
 .fixed-header-left .header-pages a {
     text-decoration: none;
-    transition-duration: 0.2s;
     color: white;
+    transition-duration: 0.2s;
 }
 
 .fixed-header-left .header-pages a:hover {
@@ -59,10 +59,10 @@ body {
 }
 
 .fixed-header-left .header-socials a {
-    font-size: 30px;
-    transition-duration: 0.2s;
     color: white;
     text-decoration: none;
+    font-size: 30px;
+    transition-duration: 0.2s;
 }
 
 .fixed-header-left .header-socials a:hover {
@@ -71,11 +71,11 @@ body {
 
 .introduction {
     color: white;
-    height: 100vh;
-    width: calc(100vw - 100px);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: calc(100vw - 100px);
+    height: 100vh;
 }
 
 .introduction .name {
@@ -101,11 +101,11 @@ body {
 
 .about-me {
     color: white;
-    height: 100vh;
-    width: calc(100vw - 100px);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 100vh;
+    width: calc(100vw - 100px);
 }
 
 .about-me .about-me-info {
@@ -117,19 +117,19 @@ body {
     font-size: 80px;
 }
 .about-me p {
+    color:rgb(240, 240, 240);
     font-size: 30px;
     margin-top: 50px;
-    color:rgb(240, 240, 240);
     font-weight: 300;
 }
 
 .contact-info {
     color: white;
-    height: 100vh;
-    width: calc(100vw - 100px);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 100vh;
+    width: calc(100vw - 100px);
 }
 
 .contact-info h1 {
@@ -150,10 +150,11 @@ body {
     display: flex;
     padding: 10px;
     background-color: #202020;
+    border: 2px solid rgba(0, 255, 140, .8);
     width: 600px;
+    padding: 10px;
     height: 200px;
     border-radius: 10px;
-    border: 2px solid rgba(0, 255, 140, .8);
 }
 
 .contact-info .contact-info-content .contact-form a {
@@ -173,8 +174,8 @@ body {
 }
 
 .contact-info .contact-info-content .contact-form .contact-code-separate-line {
-    height: 100%;
     background-color: #303030;
+    height: 100%;
     width: 2px;
     margin: 0 10px;
 }
