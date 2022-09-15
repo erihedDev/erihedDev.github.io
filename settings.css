@@ -102,8 +102,8 @@ body {
 .about-me {
     color: white;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     height: 100vh;
     width: calc(100vw - 100px);
 }
@@ -111,6 +111,33 @@ body {
 .about-me .about-me-info {
     margin-left: 60px;
     width: 720px;
+}
+
+.about-me .experience-icons {
+    margin-right: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me .experience-icons {
+    height: 60vh;
+    margin-right: 20vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.about-me .experience-icons i {
+    background-color: #101010;
+    border-radius: 20px;
+    font-size: 80px;
+    margin: 10px;
+    padding: 20px;
+    transition-duration: 0.2s;
+}
+
+.about-me .experience-icons i:hover {
+    background-color: #00ff8c;
 }
 
 .about-me h1 {
@@ -121,6 +148,19 @@ body {
     font-size: 30px;
     margin-top: 50px;
     font-weight: 300;
+}
+
+.projects {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    margin-left: 30px;
+}
+
+.projects h1 {
+    font-size: 80px;
 }
 
 .contact-info {
