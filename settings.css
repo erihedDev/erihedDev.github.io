@@ -72,6 +72,12 @@ body {
     color: #00ff8c;
 }
 
+@media screen and (max-width: 768px) {
+    .fixed-header-left {
+        display: none;
+    }
+}
+
 .introduction {
     color: white;
     display: flex;
@@ -175,7 +181,7 @@ body {
 }
 
 .projects .introduction {
-    margin-left: 30px;
+    margin-left: 60px;
     width: 800px;
     
 }
@@ -201,6 +207,24 @@ body {
 .projects .project-images .image {
     height: 300px;
     width: 300px;
+    background-color: #00ff8c;
+    position: relative;
+    text-align: center;
+}
+
+.projects .project-images .image .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    font-size: 30px;
+    color: whitesmoke;
+    pointer-events: none;
+}
+
+.projects .project-images .image a:hover + .centered {
+    display: block;
 }
 
 .projects .project-images .image img {
@@ -211,7 +235,7 @@ body {
 }
 
 .projects .project-images .image img:hover {
-    opacity: 0.7;
+    opacity: 0;
 }
 
 .contact-info {
