@@ -12,3 +12,13 @@ $("a").click(function() {
         getElement.classList.remove("hide-content");
     }
 });
+
+$('.experience-icons i').mouseover(function() {
+    let currentId = this.id;
+
+    alert(currentId.split("-").pop());
+});
+
+$('.experience-icons i').mouseout(function() {
+
+});

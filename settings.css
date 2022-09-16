@@ -25,6 +25,9 @@ body {
 
 .fixed-header-left .header-logo {
     height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .fixed-header-left .header-pages {
@@ -114,24 +117,20 @@ body {
 }
 
 .about-me .experience-icons {
-    margin-right: 20vw;
-    display: flex;
-    flex-direction: column;
-}
-
-.about-me .experience-icons {
-    height: 60vh;
+    height: 600px;
     margin-right: 20vw;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    padding: 20px;
 }
 
-.about-me .experience-icons i {
+.about-me .experience-icons i{
+    display: block;
     background-color: #101010;
     border-radius: 20px;
     font-size: 80px;
-    margin: 10px;
+    margin: 15px;
     padding: 20px;
     transition-duration: 0.2s;
 }
@@ -153,14 +152,51 @@ body {
 .projects {
     color: white;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
     height: 100vh;
+    width: calc(100vw - 100px);
+}
+
+.projects .introduction {
     margin-left: 30px;
+    width: 600px;
+    
 }
 
 .projects h1 {
     font-size: 80px;
+}
+
+.projects p {
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+.projects .project-images {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.projects .project-images .image {
+    height: 300px;
+    width: 300px;
+}
+
+.projects .project-images .image img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transition-duration: 0.2s;
+}
+
+.projects .project-images .image img:hover {
+    opacity: 0.8;
 }
 
 .contact-info {
