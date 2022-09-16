@@ -180,6 +180,13 @@ body {
     width: 720px;
 }
 
+.about-me .about-me-left {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
 .about-me .print-console {
     background-color: #202020;
     height: 300px;
@@ -218,6 +225,281 @@ body {
     background-color: #00ff8c;
 }
 
+@media screen and (max-width: 2200px) {
+    .about-me h1 {
+        font-size: 60px;
+    }
+
+    .about-me p {
+        font-size: 25px;
+    }
+
+    .about-me .about-me-info {
+        width: 600px;
+    }
+
+    .about-me .print-console {
+        height: 250px;
+        width: 500px;
+    }
+
+    .about-me .print-console p {
+        font-size: 15px;
+    }
+
+    .about-me .experience-icons {
+        height: 500px;
+        margin-right: 10vw;
+    }
+
+    .about-me .experience-icons i{
+        font-size: 60px;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 1800px) {
+    .about-me h1 {
+        font-size: 50px;
+    }
+
+    .about-me p {
+        font-size: 20px;
+    }
+
+    .about-me .about-me-info {
+        width: 500px;
+    }
+
+    .about-me .print-console {
+        height: 200px;
+        width: 400px;
+    }
+
+    .about-me .print-console p {
+        font-size: 12px;
+    }
+
+    .about-me .experience-icons {
+        height: 400px;
+    }
+
+    .about-me .experience-icons i{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .about-me h1 {
+        font-size: 40px;
+    }
+
+    .about-me p {
+        font-size: 15px;
+    }
+
+    .about-me .about-me-info {
+        width: 400px;
+    }
+
+    .about-me .print-console {
+        padding: 10px;
+        width: 300px;
+    }
+
+    .about-me .print-console p {
+        font-size: 10px;
+    }
+
+    .about-me .experience-icons i{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .about-me h1 {
+        font-size: 30px;
+    }
+
+    .about-me p {
+        font-size: 10px;
+    }
+
+    .about-me .about-me-info {
+        width: 300px;
+    }
+
+    .about-me .about-me-left {
+        flex-direction: column;
+    }
+
+    .about-me .experience-icons {
+        height: 200px;
+        margin-right: 270px;
+    }
+    .about-me .experience-icons i{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .about-me .about-me-info {
+        width: 200px;
+    }
+
+    .about-me .print-console {
+        padding: 5px;
+    }
+
+    .about-me .experience-icons {
+        margin-right: 250px;
+    }
+
+    .about-me .experience-icons i{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .about-me .about-me-info {
+        width: 200px;
+    }
+
+    .about-me .print-console {
+        padding: 5px;
+        width: 200px;
+    }
+
+    .about-me .print-console {
+        height: 300px;
+    }
+
+    .about-me .experience-icons {
+        margin-right: 220px;
+    }
+
+    .about-me .experience-icons i{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .about-me .about-me-info {
+        width: 200px;
+        margin-left: 10px;
+    }
+
+    .about-me .print-console {
+        padding: 5px;
+        width: 200px;
+    }
+
+    .about-me .print-console {
+        height: 300px;
+    }
+
+    .about-me .experience-icons {
+        margin-right: 160px;
+        height: 250px;
+    }
+
+    .about-me .experience-icons i{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .about-me h1 {
+        font-size: 20px;
+    }
+
+    .about-me .about-me-info {
+        width: 180px;
+    }
+
+    .about-me .print-console {
+        padding: 5px;
+        width: 200px;
+    }
+
+    .about-me .print-console {
+        height: 300px;
+    }
+
+    .about-me .experience-icons {
+        margin-right: 90px;
+        height: 300px;
+    }
+
+    .about-me .experience-icons i{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about-me h1 {
+        font-size: 20px;
+    }
+
+    .about-me .about-me-info {
+        width: 95%;
+    }
+
+
+    .about-me .print-console {
+        padding: 5px;
+        width: 200px;
+    }
+
+    .about-me .print-console {
+        height: 300px;
+        margin-left: 20px;
+    }
+
+    .about-me .experience-icons {
+        margin-right: 70px;
+        height: 300px;
+    }
+
+    .about-me .experience-icons i{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .about-me h1 {
+        font-size: 20px;
+    }
+
+    .about-me .about-me-info {
+        width: 95%;
+    }
+
+    .about-me .print-console {
+        padding: 5px;
+        width: 160px;
+    }
+
+    .about-me .print-console p {
+        font-size: 8px;
+    }
+
+    .about-me .print-console {
+        height: 300px;
+        margin-left: 20px;
+    }
+
+    .about-me .experience-icons {
+        margin-right: 70px;
+        height: 300px;
+    }
+
+    .about-me .experience-icons i{
+        font-size: 15px;
+    }
+}
+
 .projects {
     color: white;
     display: flex;
@@ -247,8 +529,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    margin-right: 180px;
-    margin-left: 180px;
+    justify-content: center;
+    align-items: center;
 }
 
 .projects .project-images .image {
@@ -284,6 +566,72 @@ body {
 .projects .project-images .image img:hover {
     opacity: 0;
 }
+
+@media screen and (max-width: 1200px) {
+    .projects h1 {
+        font-size: 60px;
+    }
+
+    .projects p {
+        font-size: 20px;
+    }
+
+    .projects .project-images .image {
+        height: 250px;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .projects {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects h1 {
+        font-size: 50px;
+    }
+
+    .projects p {
+        font-size: 20px;
+    }
+
+    .projects .project-images .image {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .projects h1 {
+        font-size: 40px;
+    }
+
+    .projects p {
+        font-size: 20px;
+    }
+
+    .projects .project-images .image {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .projects h1 {
+        font-size: 30px;
+    }
+
+    .projects p {
+        font-size: 20px;
+    }
+
+    .projects .project-images .image {
+        height: 100px;
+        width: 100px;
+    }
+}
+
 
 .contact-info {
     color: white;
